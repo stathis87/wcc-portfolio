@@ -109,7 +109,7 @@ a:hover {
 
 /* adding classes for each image */
 .foodImage a {
-	background-image: url(/assets/images/Food_for_thought.jpeg);
+	background-image: url(./assets/images/Food_for_thought.jpeg);
 }
 
 
