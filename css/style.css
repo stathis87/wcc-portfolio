@@ -116,6 +116,10 @@ a:hover {
 	background-image: url(../assets/images/fem-bw.png);
 }
 
+.p5Sketch {
+	width: 100%;
+}
+
 
 .flex-item a:hover{
     color:#bbbbbb;
