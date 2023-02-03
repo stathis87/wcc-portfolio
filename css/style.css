@@ -112,6 +112,10 @@ a:hover {
 	background-image: url(../assets/images/Food_for_thought.jpeg);
 }
 
+.femicideImage a {
+	background-image: url(../assets/images/fem-bw.png);
+}
+
 
 .flex-item a:hover{
     color:#bbbbbb;
