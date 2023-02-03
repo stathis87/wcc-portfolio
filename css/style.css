@@ -118,6 +118,8 @@ a:hover {
 
 .p5Sketch {
 	width: 100%;
+	outline-style: dashed;
+	outline-color: #4f4f4f;
 }
 
 
