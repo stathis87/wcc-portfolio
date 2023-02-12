@@ -116,6 +116,18 @@ a:hover {
 	background-image: url(../assets/images/fem-bw.png);
 }
 
+.pushFellingsImage a {
+    background-image: url(../assets/images/push-fel.png);
+}
+
+.poemImage a {
+    background-image: url(../assets/images/poem.png);
+}
+
+.week2Image a {
+    background-image: url(../assets/images/week2.png);
+}
+
 .p5Sketch {
 	width: 100%;
 	outline-style: dashed;
