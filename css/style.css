@@ -115,11 +115,11 @@ a:hover {
 }
 
 .poemImage a {
-    background-image: url(../assets/images/poem.png);
+    background-image: url(../assets/images/poem-dark.png);
 }
 
 .week2Image a {
-    background-image: url(../assets/images/week2.png);
+    background-image: url(../assets/images/resp-dark.png);
 }
 
 .weatherImage a {
