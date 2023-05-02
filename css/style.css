@@ -126,6 +126,15 @@ a:hover {
     background-image: url(../assets/images/weather.png);
 }
 
+.OurTimeImage a {
+	background-image: url(../assets/images/our_time.png);
+}
+
+.threeJsImage a {
+	background-image: url(../assets/images/three.png);
+}
+
+
 .p5Sketch {
 	width: 100%;
 	outline-style: dashed;
