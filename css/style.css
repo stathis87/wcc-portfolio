@@ -160,6 +160,10 @@ a:hover {
 	background-image: url(../assets/images/three.png);
 }
 
+.ourhabits a {
+    background-image: url(../assets/images/Ourhab-pic3.png);
+}
+
 
 .p5Sketch {
 	width: 100%;
