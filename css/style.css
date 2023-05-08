@@ -7,7 +7,21 @@ body {
 	background-color: rgb(251, 251, 251);
 	color: #020202;
 	padding-top: 20px;
-	margin-left: 3%;
+   
+}
+
+main, header {
+    max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homepage, #hmp {
+    max-width: 1200px;
+}
+
+header {
+    margin-bottom: 20px;
 }
 
 
@@ -15,8 +29,16 @@ h1 {
 	font-size: 24px;
 }
 
+h2 {
+    font-size: 19px;
+}
+
 section {
 	margin-bottom: 40px;
+}
+
+main p {
+    margin-bottom: 20px;
 }
 
 a {
@@ -30,6 +52,8 @@ i {
 
 nav{
     /* padding:10px 3%; */
+    margin-left: 0px;
+    margin-left: 3%;
 	margin-bottom: 30px;
 }
 
@@ -54,7 +78,9 @@ a:hover {
 	margin-bottom: 40px;
 }
 
-
+#habits {
+    margin-bottom: 40px;
+}
 
 /* MAIN PAGE STYLING */
 
@@ -179,6 +205,19 @@ a:hover {
     height: auto;
 }
 
+/* Photos */
+
+.photos {
+	max-width: 800px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* padding: 0 10px; */
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
 
 /* Media Queries */
 
@@ -204,6 +243,9 @@ a:hover {
 	.flex-item {
         flex-basis: 50%; /*width of the box, take up a quarter of the parent's size*/
     }
+    .photos {
+        max-width: 600px;
+    }
 
 }
 
@@ -214,5 +256,8 @@ a:hover {
 	}
 	.flex-item{
         flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
+    }
+    .photos {
+        max-width: 400px;
     }
 	}
